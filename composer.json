@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "CABDesigns\\AlexaNextBus\\": "src/",
+      "CABDesigns\\AlexaNextBus\\Test\\": "test/"
+    }
+  },
+  "require": {
+    "nomisoft/php-alexa-helper": "dev-master",
+    "guzzlehttp/guzzle": "^6.2",
+    "vlucas/phpdotenv": "^2.4",
+    "phpunit/phpunit": "^6.1"
+  },
+  "scripts": {
+    "test": "phpunit --bootstrap vendor/autoload.php test"
+  }
+}
